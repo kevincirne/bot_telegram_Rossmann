@@ -2,7 +2,7 @@ import os
 import json
 import requests
 import pandas as pd
-from Flask import Flask, request, Response
+from flask import Flask, request, Response
 
 #constants
 TOKEN = '5954563394:AAGtTnu5OUVs4f0oJxA3-mvtJOdFZaKoEi8'
