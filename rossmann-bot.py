@@ -24,7 +24,7 @@ TOKEN = '5954563394:AAGtTnu5OUVs4f0oJxA3-mvtJOdFZaKoEi8'
 
 
 def send_message(chat_id, text):
-    url = 'https://api.telegram.org/bot{}'.format(TOKEN)
+    url = 'https://api.telegram.org/bot{}/'.format(TOKEN)
     url = url + 'sendMessage?chat_id={}'.format(chat_id)
     
     r = requests.post(url,json={'text': text})
